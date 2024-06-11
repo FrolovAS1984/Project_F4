@@ -1,0 +1,39 @@
+.sidebar {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #38796c;
+    width: 300px;
+    height: 775px;
+}
+
+.title {
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 20px;
+
+}
+
+.menu {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.link {
+  color:black;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.link:hover {
+  color: orange;
+}
+
+
+.link.active {
+  color: darkblue;
+}
