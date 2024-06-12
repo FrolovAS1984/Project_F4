@@ -5,6 +5,7 @@ import Sidebar from "../Sidebar/Sidebar.jsx";
 
 import '../../App.css'
 import Dishes from "../Dishes/Dishes.jsx";
+import Recipe from "../Recipe/Recipe.jsx";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 
             <Routes>
                 <Route exact path={'/category/:category'} element={<Dishes />} />
+                <Route exact path={'/recipe/:id'} element={<Recipe />} />
             </Routes>
 
 

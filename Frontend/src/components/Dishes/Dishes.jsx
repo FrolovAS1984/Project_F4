@@ -13,6 +13,7 @@ function Dishes() {
     useEffect(()=> {
         axios.get(`${URL_Dishes}${category}`).then(res => {
             setDishes(res.data);
+
         })
     }, [dishes])
 
