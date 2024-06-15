@@ -23,8 +23,9 @@ Frontend:
 `pip install -r requirements.txt`
 
 
-В консоли переходим в директорию проекта и стартуем проект:  
-python manage.py runserver
+В консоли переходим в директорию проекта и стартуем проект:
+
+`python manage.py runserver`
 
 API проекта будет доступно по адресам:   
 http://127.0.0.1:8000/api/swagger-ui/ - page swagger-ui
