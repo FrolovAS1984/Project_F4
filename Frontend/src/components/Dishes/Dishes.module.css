@@ -1,3 +1,16 @@
+.loader {
+  width: 100%;
+  padding: 25px 22px;
+}
+
+.spin {
+  position: relative;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+
 .dishes {
   margin-top: 20px;
   width: 100%;

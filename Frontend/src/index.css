@@ -3,8 +3,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    /*-webkit-font-smoothing: antialiased;*/
-    /*-moz-osx-font-smoothing: grayscale;*/
+
 }
 
 a {
@@ -20,9 +19,3 @@ li {
     list-style: none;
 
 }
-
-/*section {*/
-/*      border-radius: 10px;*/
-/*      background-color: #777977;*/
-/*      box-shadow: 0 2px 4px rgb(0 0 0 / 10%);*/
-/*}*/
